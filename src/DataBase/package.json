@@ -1,0 +1,19 @@
+{
+  "name": "icsbotdatabaseapi",
+  "version": "1.0.0",
+  "description": "Módulo para el alamacenamiento de datos sobre la ICS, usuarios de sus servicios, y similares.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TEComputerIEEE/IEEE-TEC-WebAPI.git"
+  },
+  "author": "ChiripaChango Softworks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TEComputerIEEE/IEEE-TEC-WebAPI/issues"
+  },
+  "homepage": "https://github.com/TEComputerIEEE/IEEE-TEC-WebAPI#readme"
+}
