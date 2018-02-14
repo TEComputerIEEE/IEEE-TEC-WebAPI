@@ -1,11 +1,15 @@
-var express = require('express')
-var app = express();
+const express = require('express')
+const app = express()
 var port = process.env.PORT || 3000
 
+app.get('/', (request, response) => {
+  response.send('Hello from Express!')
+})
 
-app.get('*', function (req, res) {
-    res.send("Hello world" , 200);
-});
+app.listen(port, (err) => {
+  if (err) {
+    return console.log('something bad happened', err)
+  }
 
-
-app.listen(port);
+  console.log(`server is listening on ${port}`)
+})
