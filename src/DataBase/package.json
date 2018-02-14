@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/TEComputerIEEE/IEEE-TEC-WebAPI/issues"
   },
-  "homepage": "https://github.com/TEComputerIEEE/IEEE-TEC-WebAPI#readme"
+  "homepage": "https://github.com/TEComputerIEEE/IEEE-TEC-WebAPI#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
 }
