@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/TEComputerIEEE/IEEE-TEC-WebAPI#readme",
   "dependencies": {
-    "express": "^4.16.2"
+    "express": "^4.16.3",
+    "mongodb": "^3.0.5"
   },
   "devDependencies": {}
 }
